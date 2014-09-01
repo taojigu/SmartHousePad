@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PodArray>
+    <Pod  type="CodeCreated" fileName="">
+        <PodName>
+            <![CDATA[CodeCreateNodes]]>
+        </PodName>
+        <NodeArray>
+            <Node id="Light1"  name="lamp" type="Light"  x="-2.0" y="20" z="0" >
+                <Description>
+                    <![CDATA[Global Light]]>
+                </Description>
+            </Node>
+            <Node id="Light2"  name="innerLight" type="Light"  x="16" y="10" z="-20">
+                <Description>
+                    <![CDATA[Light inside the House]]>
+                </Description>
+            </Node>
+            <Node id="Camera1" name="globalCaremra" type="Camera"  x="6.354" y="-34.961" z="0">
+                <Description>
+                    <![CDATA[Light inside the House]]>
+                </Description>
+            </Node>
+        </NodeArray>
+    </Pod>
+    <Pod  type="ResourcePod" fileName="House0709_4.pod" collided="YES">
+        <PodName>
+            <![CDATA[HousePodFile]]>
+        </PodName>
+        <NodeArray>
+        </NodeArray>
+    </Pod>
+    <Pod  type="ResourcePod" fileName="Tree0709.pod" opacity="254" collided="YES">
+        <PodName>
+            <![CDATA[TreePodFile]]>
+        </PodName>
+        <NodeArray>
+        </NodeArray>
+    </Pod>
+    <Pod  type="ResourcePod" fileName="kuang0709_4.pod">
+        <PodName>
+            <![CDATA[WindowFramePodFile]]>
+        </PodName>
+        <NodeArray>
+        </NodeArray>
+    </Pod>
+    <Pod  type="ResourcePod" fileName="Sky0708.pod">
+        <PodName>
+            <![CDATA[SkyFramePodFile]]>
+        </PodName>
+        <NodeArray>
+        </NodeArray>
+    </Pod>
+    <Pod  type="FloorPodFile" fileName="Floor0709_2.pod">
+        <PodName>
+            <![CDATA[FloorPodFile]]>
+        </PodName>
+        <NodeArray>
+            <Node id="Floor1" name="Floor_1" type="Floor">
+                <Description>
+                    <![CDATA[HouseFloor]]>
+                </Description>
+            </Node>
+            <Node id="Floor2" name="Floor_2" type="Floor">
+                <Description>
+                    <![CDATA[GroundFloor]]>
+                </Description>
+            </Node>
+        </NodeArray>
+    </Pod>
+</PodArray>
